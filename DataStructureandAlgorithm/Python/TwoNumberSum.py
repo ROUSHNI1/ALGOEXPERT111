@@ -5,7 +5,7 @@ def twoNumberSum(array , targetSum):
             secondNum = array[j]
             if firstNum + secondNum == targetSum :
                 return [firstNum,secondNum]
-        return []
+  return []
 
 def main():
     array = {4 , 5, 5 , 7 , 3, 2 , 8, 6}
