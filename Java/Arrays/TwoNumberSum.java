@@ -1,4 +1,4 @@
-package DataStructureandAlgorithm.Arrays;
+package Java.Arrays;
 
 
 class TwoNumberSum{
