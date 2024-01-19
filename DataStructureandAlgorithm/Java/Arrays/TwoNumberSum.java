@@ -1,4 +1,5 @@
 package Java.Arrays;
+import java.util.*;
 
 
 class TwoNumberSum{
@@ -17,6 +18,6 @@ class TwoNumberSum{
     public static void main(String[] args) {
         int[] array = {3 ,5,-4 ,8, 11,1,-1 ,6};
         int targetsum = 10 ;
-        System.out.println("The two numbers that add up to the given sum are: " + twoNumberSums( array, targetsum) );
+        System.out.println("The two numbers that add up to the given sum are: " + (Arrays.toString(twoNumberSums( array, targetsum))) );
     }
 }
