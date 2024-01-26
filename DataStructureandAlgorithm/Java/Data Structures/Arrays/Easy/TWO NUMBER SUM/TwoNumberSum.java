@@ -1,7 +1,8 @@
 
 import java.util.*;
 
-
+//Nested Traversal -naive approach
+//time complexity O(N^2)  Auxiliary Space: O(1)
 class TwoNumberSum{
     public static int[] twoNumberSums(int[] array , int targetsum){
         for(int i = 0; i < array.length -1; i++){
