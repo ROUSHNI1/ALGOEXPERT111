@@ -1,5 +1,5 @@
 #Nested Traversal Approach
-  
+#O(n^2) Time |  O(1) Space
 def twoNumberSum(array , targetSum):
   
   arrays = list(array) #now converting set to list or you can use tupple convert the unordered set to an ordered list first. Only then you use indexing or slicing so the error doesn’t occur anymore
