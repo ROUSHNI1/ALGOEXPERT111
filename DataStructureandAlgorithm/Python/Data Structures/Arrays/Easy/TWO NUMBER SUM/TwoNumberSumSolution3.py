@@ -1,5 +1,5 @@
 #O(nlog(n) Time | O(1) Space
-import array
+
 def twoNumSum(array , targetSum):
     array.sort()
     left = 0
@@ -14,7 +14,12 @@ def twoNumSum(array , targetSum):
             right -= 1
     return []
 
+
+      
+# Testing 
 array = {3, 5, -4, 8, 11, 1, -1, 6}
+#array = sorted(arrays)
 targetSum = 10
-print('so the the two number equal to target are:/n')
-print(twoNumSum(array, targetSum))
+print('so the the two number equal to target are:')
+
+print(twoNumSum(sorted(array), targetSum))
